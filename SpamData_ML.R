@@ -102,7 +102,7 @@ text(First_Tree)
 
 # Estimate the model with 200 trees
 Second_Tree <-bagging(Equation,data=Data_Train,mfinal=200) 
-# This already takes a while because 200 trees are used for boosting
+# This already takes a while because 200 trees are used 
 
 # Lets take a look at the relative importance of the variables
 sort(Second_Tree$importance)
